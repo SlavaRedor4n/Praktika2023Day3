@@ -1,0 +1,8 @@
+D:\VS Repos\Praktika2023Day3\obj\Debug\Praktika2023Day3.csproj.AssemblyReference.cache
+D:\VS Repos\Praktika2023Day3\obj\Debug\Praktika2023Day3.csproj.SuggestedBindingRedirects.cache
+D:\VS Repos\Praktika2023Day3\obj\Debug\Praktika2023Day3.csproj.CoreCompileInputs.cache
+D:\VS Repos\Praktika2023Day3\bin\Debug\Praktika2023Day3.exe.config
+D:\VS Repos\Praktika2023Day3\bin\Debug\Praktika2023Day3.exe
+D:\VS Repos\Praktika2023Day3\bin\Debug\Praktika2023Day3.pdb
+D:\VS Repos\Praktika2023Day3\obj\Debug\Praktika2023Day3.exe
+D:\VS Repos\Praktika2023Day3\obj\Debug\Praktika2023Day3.pdb
