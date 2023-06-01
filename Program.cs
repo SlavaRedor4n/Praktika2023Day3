@@ -33,6 +33,31 @@ internal class Program
         Console.WriteLine("Средняя зарплата: {0}", averageWage);
 
         Employee.DisplayAllEmployeeNames(employees);
+
+        // Новые методы
+        decimal percent = 10;
+        Employee.IndexSalary(employees, percent);
+        Console.WriteLine("Зарплаты всех сотрудников увеличены на {0}%", percent);
+
+        int department = 5;
+        Employee employeeWithMinWageByDepartment = Employee.FindEmployeeWithMinWageByDepartment(employees, department);
+        Console.WriteLine("Сотрудник с минимальной зарплатой в отделе {0}: {1}", department, employeeWithMinWageByDepartment.FullName);
+
+        int department2 = 3;
+        Employee employeeWithMaxWageByDepartment = Employee.FindEmployeeWithMaxWageByDepartment(employees, department2);
+        Console.WriteLine("Сотрудник с максимальной зарплатой в отделе {0}: {1}", department2, employeeWithMaxWageByDepartment.FullName);
+
+        decimal averageWageByDepartment = Employee.CalculateAverageWageByDepartment(employees, department2);
+        Console.WriteLine("Средняя зарплата в отделе {0}: {1}", department2, averageWageByDepartment);
+
+        decimal amount = 50000;
+        Console.WriteLine("Сотрудники с зарплатой ниже {0}:", amount);
+        Employee.DisplayEmployeesWithLowerWage(employees, amount);
+
+        decimal amount2 = 60000;
+        Console.WriteLine("Сотрудники с зарплатой выше или равной {0}:", amount2);
+        Employee.DisplayEmployeesWithHigherOrEqualWage(employees, amount2);
+
         Console.ReadKey();
     }
 }
